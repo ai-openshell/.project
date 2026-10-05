@@ -1,0 +1,99 @@
+# OpenShell .project metadata
+#
+# Schema: https://github.com/cncf/automation/blob/main/utilities/dot-project/SCHEMA.md
+# Docs:   https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "openshell"
+name: "OpenShell"
+description: "OpenShell is the safe, private runtime for fleets of autonomous AI agents."
+type: "project"
+
+project_lead: "johntmyers"
+
+slack_channels:
+  - name: "#openshell-dev"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/messages/openshell-dev"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: 2026-10-02T15:11:55Z
+    issue: "https://github.com/cncf/sandbox/issues/522"
+
+repositories:
+  - url: "https://github.com/NVIDIA/OpenShell"
+    primary: true
+
+website: "https://docs.nvidia.com/openshell/latest/"
+
+package_managers:
+  pypi: "openshell"
+  snap: "openshell"
+  homebrew: "nvidia/openshell/openshell"
+  docker:
+    - "ghcr.io/nvidia/openshell/gateway"
+    - "ghcr.io/nvidia/openshell/supervisor"
+    - "ghcr.io/nvidia/openshell/sandbox"
+    - "ghcr.io/nvidia/openshell/openshell-workspace"
+    - "ghcr.io/nvidia/openshell/helm-chart"
+
+mailing_lists:
+  - "openshell-maintainers@ai-openshell.org"
+  - "openshell-community@ai-openshell.org"
+
+security:
+  policy:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/SECURITY.md"
+  contact:
+    email: psirt@nvidia.com
+    advisory_url: "https://github.com/NVIDIA/OpenShell/blob/main/SECURITY.md"
+
+governance:
+  contributing:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/CONTRIBUTING.md"
+  codeowners:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/.github/CODEOWNERS"
+  governance_doc:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md"
+  decision_making_process:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#voting"
+  roles_and_teams:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#contributor-ladder"
+  code_of_conduct:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/CODE_OF_CONDUCT.md"
+  contributor_ladder:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#contributor-ladder"
+  change_process:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/CONTRIBUTING.md#pull-requests"
+  comms_channels:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#meetings-and-communication"
+  contributor_guide:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/CONTRIBUTING.md"
+  maintainer_lifecycle:
+    onboarding_doc:
+      path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#becoming-a-maintainer"
+    progression_ladder:
+      path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#contributor-ladder"
+    offboarding_policy:
+      path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#emeritus-maintainers"
+
+legal:
+  license:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://github.com/NVIDIA/OpenShell/blob/main/DCO"
+
+documentation:
+  readme:
+    path: "https://github.com/NVIDIA/OpenShell/blob/main/README.md"
+  architecture:
+    path: "https://docs.nvidia.com/openshell/latest/about/architecture"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"

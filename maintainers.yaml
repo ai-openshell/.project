@@ -1,0 +1,26 @@
+# OpenShell maintainer roster
+#
+# Source of truth for the human-readable list:
+# https://github.com/NVIDIA/OpenShell/blob/main/MAINTAINERS.md
+#
+# Schema: https://github.com/cncf/automation/blob/main/utilities/dot-project/SCHEMA.md
+
+maintainers:
+  - project_id: "openshell"
+    org: "NVIDIA"
+    teams:
+      - name: "maintainers"
+        members:
+          - derekwaynecarr
+          - matthewgrossman
+          - krishicks
+          - sjenning
+          - alangou
+          - elezar
+          - purp
+          - pimlock
+          - TaylorMutch
+          - johntmyers
+          - drew
+          - mrunalp
+          - SDAChess
