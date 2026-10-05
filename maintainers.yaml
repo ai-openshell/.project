@@ -7,9 +7,9 @@
 
 maintainers:
   - project_id: "openshell"
-    org: "NVIDIA"
+    org: "ai-openshell"
     teams:
-      - name: "maintainers"
+      - name: "openshell-maintainers"
         members:
           - derekwaynecarr
           - matthewgrossman
