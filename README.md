@@ -1,6 +1,6 @@
 # OpenShell `.project`
 
-CNCF project metadata for [OpenShell](https://github.com/NVIDIA/OpenShell).
+CNCF project metadata for [OpenShell](https://github.com/ai-openshell/openshell).
 
 | File | Purpose |
 | --- | --- |
@@ -16,9 +16,9 @@ Open a pull request. CI validates both files against the schema, and merges to
 [`cncf/landscape`](https://github.com/cncf/landscape) with the updated entry.
 
 The maintainer roster here must stay in sync with
-[`MAINTAINERS.md`](https://github.com/NVIDIA/OpenShell/blob/main/MAINTAINERS.md)
+[`MAINTAINERS.md`](https://github.com/ai-openshell/openshell/blob/main/MAINTAINERS.md)
 in the main repository. Maintainer changes follow the process in
-[`GOVERNANCE.md`](https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#becoming-a-maintainer).
+[`GOVERNANCE.md`](https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#becoming-a-maintainer).
 
 To validate locally:
 

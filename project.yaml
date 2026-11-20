@@ -23,7 +23,7 @@ maturity_log:
     issue: "https://github.com/cncf/sandbox/issues/522"
 
 repositories:
-  - url: "https://github.com/NVIDIA/OpenShell"
+  - url: "https://github.com/ai-openshell/openshell"
     primary: true
 
 website: "https://docs.nvidia.com/openshell/latest/"
@@ -33,11 +33,11 @@ package_managers:
   snap: "openshell"
   homebrew: "nvidia/openshell/openshell"
   docker:
-    - "ghcr.io/nvidia/openshell/gateway"
-    - "ghcr.io/nvidia/openshell/supervisor"
-    - "ghcr.io/nvidia/openshell/sandbox"
-    - "ghcr.io/nvidia/openshell/openshell-workspace"
-    - "ghcr.io/nvidia/openshell/helm-chart"
+    - "quay.io/ai-openshell/gateway"
+    - "quay.io/ai-openshell/supervisor"
+    - "quay.io/ai-openshell/sandbox"
+    - "quay.io/ai-openshell/charts/openshell"
+    - "quay.io/ai-openshell/charts/openshell-workspace"
 
 mailing_lists:
   - "openshell-maintainers@ai-openshell.org"
@@ -45,52 +45,52 @@ mailing_lists:
 
 security:
   policy:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/SECURITY.md"
+    path: "https://github.com/ai-openshell/openshell/blob/main/SECURITY.md"
   contact:
     email: psirt@nvidia.com
-    advisory_url: "https://github.com/NVIDIA/OpenShell/blob/main/SECURITY.md"
+    advisory_url: "https://github.com/ai-openshell/openshell/security/advisories/new"
 
 governance:
   contributing:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/CONTRIBUTING.md"
+    path: "https://github.com/ai-openshell/openshell/blob/main/CONTRIBUTING.md"
   codeowners:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/.github/CODEOWNERS"
+    path: "https://github.com/ai-openshell/openshell/blob/main/.github/CODEOWNERS"
   governance_doc:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md"
+    path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md"
   decision_making_process:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#voting"
+    path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#voting"
   roles_and_teams:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#contributor-ladder"
+    path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#contributor-ladder"
   code_of_conduct:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/CODE_OF_CONDUCT.md"
+    path: "https://github.com/ai-openshell/openshell/blob/main/CODE_OF_CONDUCT.md"
   contributor_ladder:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#contributor-ladder"
+    path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#contributor-ladder"
   change_process:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/CONTRIBUTING.md#pull-requests"
+    path: "https://github.com/ai-openshell/openshell/blob/main/CONTRIBUTING.md#pull-requests"
   comms_channels:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#meetings-and-communication"
+    path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#meetings-and-communication"
   contributor_guide:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/CONTRIBUTING.md"
+    path: "https://github.com/ai-openshell/openshell/blob/main/CONTRIBUTING.md"
   maintainer_lifecycle:
     onboarding_doc:
-      path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#becoming-a-maintainer"
+      path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#becoming-a-maintainer"
     progression_ladder:
-      path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#contributor-ladder"
+      path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#contributor-ladder"
     offboarding_policy:
-      path: "https://github.com/NVIDIA/OpenShell/blob/main/GOVERNANCE.md#emeritus-maintainers"
+      path: "https://github.com/ai-openshell/openshell/blob/main/GOVERNANCE.md#emeritus-maintainers"
 
 legal:
   license:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/LICENSE"
+    path: "https://github.com/ai-openshell/openshell/blob/main/LICENSE"
   identity_type:
     has_dco: true
     has_cla: false
     dco_url:
-      path: "https://github.com/NVIDIA/OpenShell/blob/main/DCO"
+      path: "https://github.com/ai-openshell/openshell/blob/main/DCO"
 
 documentation:
   readme:
-    path: "https://github.com/NVIDIA/OpenShell/blob/main/README.md"
+    path: "https://github.com/ai-openshell/openshell/blob/main/README.md"
   architecture:
     path: "https://docs.nvidia.com/openshell/latest/about/architecture"
 
